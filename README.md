@@ -1,3 +1,6 @@
+## Preview 
+![naver](https://user-images.githubusercontent.com/65179725/137448839-bd7de1fa-037b-4126-b614-52aa7fb0ac91.PNG)
+
 ## 네이버 실시간 검색어 추출 웹앱 또는 API
 
 ```
