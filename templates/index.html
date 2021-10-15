@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Crawling Web</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/index_style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="section-center">
+      <h2 class="time-container">Naver Serch Keyword</h2>
+
+      <div>
+        <ol>
+          {% for i in list %}
+          <li class="list-show">{{i}}</li>
+          {% endfor %}
+        </ol>
+      </div>
+    </div>
+  </body>
+</html>
